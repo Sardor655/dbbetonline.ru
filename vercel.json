@@ -7,9 +7,9 @@
     }
   },
   "redirects": [
-    { "source": "/ru/?", "destination": "/", "permanent": true },
-    { "source": "/kk/?", "destination": "/kz", "permanent": true },
-    { "source": "/bn/?", "destination": "/bd", "permanent": true },
+    { "source": "/ru", "destination": "/", "permanent": true },
+    { "source": "/kk", "destination": "/kz", "permanent": true },
+    { "source": "/bn", "destination": "/bd", "permanent": true },
     { "source": "/index.php", "destination": "/", "permanent": true },
     { "source": "/ru/index.php", "destination": "/", "permanent": true },
     { "source": "/:lang(en|uz|tr|kz|pt|bd|id)/index.php", "destination": "/:lang", "permanent": true },
@@ -18,6 +18,6 @@
   "rewrites": [
     { "source": "/:lang(en|uz|tr|kz|pt|bd|id)", "destination": "/api/:lang.php" },
     { "source": "/", "destination": "/api/index.php" },
-    { "source": "/(.*)", "destination": "/api/404.php" }
+    { "source": "/:match*", "destination": "/api/404.php" }
   ]
 }
