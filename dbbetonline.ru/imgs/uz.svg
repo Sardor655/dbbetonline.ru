@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="48" viewBox="0 0 64 48" role="img" aria-label="Oʻzbekiston bayrogʻi">
+<rect width="64" height="48" fill="#1eb3e6"/>
+<rect y="16" width="64" height="16" fill="#fff"/>
+<rect y="32" width="64" height="16" fill="#1faa59"/>
+<rect y="15" width="64" height="2" fill="#ce1126"/>
+<rect y="31" width="64" height="2" fill="#ce1126"/>
+<circle cx="12" cy="8" r="6" fill="#fff"/>
+<circle cx="14" cy="8" r="5" fill="#1eb3e6"/>
+<g fill="#fff">
+<circle cx="23" cy="5" r="1.2"/><circle cx="28" cy="5" r="1.2"/><circle cx="33" cy="5" r="1.2"/>
+<circle cx="23" cy="10" r="1.2"/><circle cx="28" cy="10" r="1.2"/><circle cx="33" cy="10" r="1.2"/>
+<circle cx="23" cy="15" r="1.2"/><circle cx="28" cy="15" r="1.2"/><circle cx="33" cy="15" r="1.2"/>
+</g>
+</svg>
