@@ -2,7 +2,7 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "cleanUrls": true,
   "functions": {
-    "api/*.php": {
+    "*.php": {
       "runtime": "vercel-php@0.9.0"
     }
   },
@@ -11,12 +11,6 @@
     { "source": "/kk", "destination": "/kz", "permanent": true },
     { "source": "/bn", "destination": "/bd", "permanent": true },
     { "source": "/index.php", "destination": "/", "permanent": true },
-    { "source": "/ru/index.php", "destination": "/", "permanent": true },
-    { "source": "/:lang(en|uz|tr|kz|pt|bd|id)/index.php", "destination": "/:lang", "permanent": true },
-    { "source": "/:page(en|uz|tr|kz|pt|bd|id).php", "destination": "/:page", "permanent": true }
-  ],
-  "rewrites": [
-    { "source": "/:lang(en|uz|tr|kz|pt|bd|id)", "destination": "/api/:lang.php" },
-    { "source": "/", "destination": "/api/index.php" }
+    { "source": "/ru/index.php", "destination": "/", "permanent": true }
   ]
 }
